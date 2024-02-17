@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class Mang {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		BtMang m = new BtMang();
+		m.HienThi(10); // Hien thi thong tin 10 sinh vien
+		
+		Scanner sc = new Scanner(System.in);
+		int n;
+		sca
+	}
+
+}

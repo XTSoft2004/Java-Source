@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class vidu4 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Nhap ho ten: ");
+		String ht = sc.nextLine(); // ht = "Le Hoang Van Nam";
+		String[] index = ht.split(" ");
+		int index_first = ht.indexOf(' ');
+		int index_last = ht.lastIndexOf(' ');
+		System.out.println(ht.substring(0,index_first));
+		if(index.length >= 2) {
+			System.out.println(ht.substring(index_first + 1,index_last));
+		}
+		
+		System.out.println(ht.substring(index_last + 1,ht.length()));
+		
+	}
+
+}

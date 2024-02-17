@@ -1,0 +1,25 @@
+import java.util.Random;
+
+public class vidu1 {
+
+	public static void main(String[] args) {
+		while(true)
+		{
+			Random r = new Random();
+			int sx = r.nextInt(10000);
+			System.out.println("Bien so: " + sx);
+			int num_sx = sx;
+			int cnt = 0,sum = 0;
+			while(sx != 0) {
+				sum += sx % 10;
+				sx /= 10;
+				cnt += 1;
+			}
+			if(sum % 10 == 9) {
+				System.out.println("Bien so: " + sum);
+				System.out.println("Xe nay 9 diem");
+				break;
+			}	
+		}
+	}
+}

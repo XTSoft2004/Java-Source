@@ -1,0 +1,10 @@
+
+public class vidu2 {
+	public double thuong(double a, double b)Ơ
+	double s = a/b;
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

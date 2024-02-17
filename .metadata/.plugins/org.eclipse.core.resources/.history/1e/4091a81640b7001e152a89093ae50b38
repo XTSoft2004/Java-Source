@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class vidu5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String[] ds = {"Le van Nam","Ho van Tu","Do van Hung Dung"};
+		//Nhap vao 1 key
+		Scanner sc =new Scanner(System.in);
+		String key = sc.nextLine();
+		// In ra cac ho ten giong nhu key ( tim tuong toi )
+	}
+
+}

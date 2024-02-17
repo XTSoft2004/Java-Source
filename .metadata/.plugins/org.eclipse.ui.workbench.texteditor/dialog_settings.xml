@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value=""/>
+		<list key="findhistory">
+			<item value="public List&lt;InfoStudent&gt; HienThi(int n) {"/>
+			<item value="&#x09;public String TaoNgay(String ngay1,String ngay2) {"/>
+			<item value="&#x09;public static void main(String[] args) {"/>
+			<item value="public static void main(String[] args) {"/>
+			<item value=""/>
+		</list>
+	</section>
+</section>

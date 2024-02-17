@@ -1,0 +1,26 @@
+import java.util.Date;
+import java.text.SimpleDateFormat;
+import java.util.Scanner;
+
+public class ttt {
+
+	public static void main(String[] args) {
+		try {
+			Scanner sc = new Scanner(System.in);
+			SimpleDateFormat f= new SimpleDateFormat("hh:mm dd/MM/yyyy");
+			Date dt1 = f.parse(sc.nextLine());
+			Date dt2 = f.parse(sc.nextLine());
+			Long time = dt2.getTime() - dt1.getTime();
+			double hour = (double)time / 1000 / 60 / 60;
+			System.out.println(hour);
+		} 
+		catch (Exception e) {
+			// TODO: handle exception
+			e.printStackTrace();
+		}
+		
+		
+
+	}
+
+}

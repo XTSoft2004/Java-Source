@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class vidu4 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Nhap ho ten: ");
+		String ht = sc.nextLine(); // ht = "Le Hoang Van Nam";
+		int index_firstho = ht.indexOf(' ');
+		int index_ho = ht.lastIndexOf(' ');
+		System.out.println(ht.substring(0,index_ho));
+		System.out.println(ht.substring(index_ho,index_ho));
+	}
+
+}

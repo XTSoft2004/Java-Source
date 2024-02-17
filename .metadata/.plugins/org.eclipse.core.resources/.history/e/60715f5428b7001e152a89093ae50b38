@@ -1,0 +1,21 @@
+
+public class InfoStudent {
+	public String name;
+	public String date;
+	public double dtb;
+	public String xeploai;
+	public String gioitinh;
+	
+	
+	public InfoStudent(String name, String date, double dtb, String xeploai, String gioitinh) {
+		super();
+		this.name = name;
+		this.date = date;
+		this.dtb = dtb;
+		this.xeploai = xeploai;
+		this.gioitinh = gioitinh;
+	}
+	public InfoStudent() {
+		super();
+	}	
+}

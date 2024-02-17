@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class vidu4 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Nhap ho ten: ");
+		String ht = sc.nextLine(); // ht = "Le Hoang Van Nam";
+		int index_ho = ht.indexOf(' ');
+		System.out.println();
+	}
+
+}

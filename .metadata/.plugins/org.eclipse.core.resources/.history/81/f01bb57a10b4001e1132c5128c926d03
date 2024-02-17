@@ -1,0 +1,22 @@
+import java.util.Random;
+
+public class vidu1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Hello");
+		System.out.println("1");
+		Random r = new Random();
+		int sx = r.nextInt(100000);
+		System.out.println("sx: " + sx);
+		int cnt = 0;
+		int sum = 0;
+		while(sx != 0) {
+			int num = sx % 100;
+			sum += num;
+			sx %= 10;
+			cnt += 1;
+		}
+		System.out.println(sum);
+	}
+}

@@ -1,0 +1,10 @@
+
+public class vidu3 {
+
+	public static void main(String[] args) {
+		vidu2 vd2 = new vidu2();
+		System.out.println(vd2.thuong(7.0, 2.0));
+
+	}
+
+}

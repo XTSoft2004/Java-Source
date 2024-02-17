@@ -1,0 +1,12 @@
+
+public class vidu6 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String tt = "Sv1;Le van Nam;K46;CNTT;DHKH";
+		String[] che = tt.split("[;]");
+		System.out.println("Ten khoa: " + che[3
+		                                      ]);
+	}
+
+}

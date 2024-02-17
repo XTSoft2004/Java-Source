@@ -1,0 +1,12 @@
+
+public class InfoStudent {
+	public String name;
+	public String date;
+	public double dtb;
+	public String gioitinh;
+	public String xeploai;
+	
+	public InfoStudent() {
+		super();
+	}	
+}

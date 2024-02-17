@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class vidu4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		try {
+			Scanner sc = new Scanner(System.in)
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+	}
+
+}

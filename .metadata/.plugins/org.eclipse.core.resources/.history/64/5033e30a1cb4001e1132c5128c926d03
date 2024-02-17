@@ -1,0 +1,13 @@
+import java.util.Iterator;
+
+public class vidu3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[] a = {3,2,6,2,5};
+		for(int i = 0;i < a.length;i++) {
+			System.out.println(a[i] + " ");
+		}
+	}
+
+}

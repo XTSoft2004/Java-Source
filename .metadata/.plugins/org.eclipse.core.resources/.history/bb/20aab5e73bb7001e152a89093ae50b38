@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class vidu4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		try {
+			Scanner sc = new Scanner(System.in);
+			System.out.println("Nhap ho ten: ");
+			String ht = sc.nextLine(); // ht = "Le Hoang Van Nam";
+			System.out.println(ht.indexOf(' '));
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+	}
+
+}

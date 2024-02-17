@@ -1,0 +1,12 @@
+
+public class vidu2 {
+	public double thuong(double a, double b) throws Exception {
+		double s = a / b;
+		return s;
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println(thuong(1,0));
+	}
+
+}
